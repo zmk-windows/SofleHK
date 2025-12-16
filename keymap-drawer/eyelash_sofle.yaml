@@ -62,7 +62,7 @@ layers:
   - {t: Mac, h: toggle}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-control$$', h: Number}
+  - {t: '$$mdi:apple-keyboard-control$$', h: Extra}
   - {t: '-', h: Extra, s: _}
   - {t: '=', h: Extra, s: +}
   Mac:
@@ -322,8 +322,8 @@ layers:
   - '&bl BL_TOG'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {type: held alternate}
 combos:
 - p: [14, 28, 40]
