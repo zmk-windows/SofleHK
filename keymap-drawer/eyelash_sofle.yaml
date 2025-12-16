@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {t: BT DISC, h: '1'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
   - Y
   - U
   - I
@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-control$$', h: Number}
-  - {t: '-', h: Function, s: _}
+  - {t: '-', h: Extra, s: _}
   - {t: '=', h: Extra, s: +}
   Mac:
   - $$mdi:keyboard-esc$$
@@ -72,7 +72,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {t: BT DISC, h: '1'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -85,7 +85,7 @@ layers:
   - E
   - R
   - T
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
   - Y
   - U
   - I
@@ -128,7 +128,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-caps$$
   - Number
-  - {t: '-', h: Function, s: _}
+  - {t: '-', h: Extra, s: _}
   - {t: '=', h: Extra, s: +}
   Function:
   - {t: '`', s: '~'}
@@ -183,7 +183,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-off$$
+  - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Number:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -323,8 +323,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
