@@ -62,9 +62,9 @@ layers:
   - {t: Windows, h: toggle}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-caps$$
-  - Number
-  - {t: '-', h: Extra, s: _}
-  - {t: '=', h: Extra, s: +}
+  - Extra
+  - {t: '-', h: Number, s: _}
+  - {t: '=', h: Number, s: +}
   Windows:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -128,8 +128,8 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-control$$', h: Extra}
-  - {t: '-', h: Extra, s: _}
-  - {t: '=', h: Extra, s: +}
+  - {t: '-', h: Number, s: _}
+  - {t: '=', h: Number, s: +}
   Function:
   - {t: '`', s: '~'}
   - F1
@@ -206,9 +206,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: /, s: '?'}
-  - F10
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '-', s: _}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -257,9 +257,9 @@ layers:
   - '&bl BL_TOG'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '0', s: )}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: ), type: held alternate}
+  - {t: ., s: '>', type: held alternate}
   Extra:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -322,9 +322,9 @@ layers:
   - '&bl BL_TOG'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
